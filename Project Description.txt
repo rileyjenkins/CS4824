@@ -1,0 +1,23 @@
+We will be using machine learning based on data from Argentina in order to
+determine if a student is at a risk of being bullied, physically, verbally, or on the
+internet based on certain social characteristics. Cross-national surveys [1][2] 
+in the past have found that a quarter to a third of
+students have been victimized while at school, illustrating that bullying is a
+significant problem facing schools around the world. Factors that cause students
+to be victimized include being socially isolated [3], and the degree of homophily
+within bullying groups, which assesses how much students choose friends based
+on similar behaviors and attitudes [4]. As far as we know, there are currently no machine learning models which can
+predict if a student will get bullied based on student characteristics such as
+loneliness and number of friends. Only one paper exists around predicting
+student risk of bullying using social graphs using data solely on past incidents of
+bullying [5]. For the data set being used, we will use data from the World Health
+Organization’s 2018 Global School-based Health Survey for Argentina, which can
+be found here. The survey includes a wide variety of questions around student
+academic and social lives in school and their personal lives outside of school.
+However, we will select specific questions relevant to our project based on past
+research that’s been done on factors that cause students to be bullied.
+Currently we have selected questions around reported perceptions of loneliness
+and number of friends as features in our model to determine if these factors can
+predict the risk of cyber bullying, verbal bullying, and physical bullying. This is
+due to research around bullying that’s found social isolation to be a significant
+factor that causes students to be bullied at school.
